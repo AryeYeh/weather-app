@@ -16,7 +16,7 @@ export default function WeatherApp() {
   }, [currentCity])
 
   return (
-    <div className="flex justify-center items-center bg-gray-600 h-screen w-screen min-h-[600px] min-w-[400px]">
+    <div className="flex justify-center items-center bg-gray-600 h-screen w-screen min-w-[400px] min-h-[640px] overflow-auto">
       {currentPage === "WeatherCard" && (
         <WeatherCard
           cityName={currentLocation.cityName}

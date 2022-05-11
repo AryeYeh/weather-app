@@ -31,7 +31,7 @@ export default function WeatherCard(props) {
     <div>
       <Card sx={{
         minWidth: 400,
-        minHeight: 640,
+        minHeight: "100%",
         maxHeight: 640,
         backgroundColor: "#1e88e5",
       }}>
@@ -145,7 +145,7 @@ export default function WeatherCard(props) {
               fontSize: 10,
             }}
           >
-            All icons designed by vectorsmarket15 from Flaticon
+            Icons designed by vectorsmarket15 from Flaticon
           </Link>
         </CardContent>
       </Card>
